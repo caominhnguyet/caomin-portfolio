@@ -1525,6 +1525,7 @@ body{
     height: auto !important;
 
     padding: 22px 26px !important;
+    align-self: stretch;
 
     display: grid;
 
