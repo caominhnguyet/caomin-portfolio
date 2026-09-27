@@ -1303,4 +1303,110 @@ body{
 
 .project-btn:hover {
     opacity: 0.9;
+}/* ================================
+   API TESTING PROJECT
+================================ */
+
+.api-testing-project {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 30px;
+}
+
+.api-testing-project h1 {
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+
+.api-testing-project .project-overview {
+    margin-bottom: 50px;
+}
+
+.api-testing-project .project-overview h2,
+.api-testing-project .documentsapi4 h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.api-testing-project .project-overview p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #555;
+}
+
+.documentsapi4 {
+    margin-bottom: 40px;
+}
+
+.documentsapi4 .document-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.documentsapi4 .document-list a {
+    display: block;
+    padding: 25px;
+
+    border: 1px solid #ddd;
+    border-radius: 12px;
+
+    background: white;
+
+    color: #222;
+    text-decoration: none;
+
+    transition: 0.2s;
+}
+
+.documentsapi4 .document-list a:hover {
+    transform: translateY(-4px);
+
+    border-color: #2563eb;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.documentsapi4 .document-list a::after {
+    content: "View Document →";
+
+    display: block;
+    margin-top: 15px;
+
+    color: #2563eb;
+    font-weight: 600;
+}
+
+.api-testing-project .back-button {
+    display: inline-block;
+
+    margin-top: 45px;
+    padding: 12px 22px;
+
+    background: #2563eb;
+    color: white;
+
+    border-radius: 8px;
+
+    text-decoration: none;
+}
+
+.api-testing-project .back-button:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 700px) {
+
+    .api-testing-project {
+        padding: 40px 20px;
+    }
+
+    .documentsapi4 .document-list {
+        grid-template-columns: 1fr;
+    }
+
+    .api-testing-project h1 {
+        font-size: 32px;
+    }
+
 }
