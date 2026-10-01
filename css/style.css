@@ -1637,3 +1637,58 @@ body{
 
 }
 
+
+
+/* =========================
+   TESTING SECTION
+   ========================= */
+
+. {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 80px 70px;
+    background: #f3f6fa;
+    box-sizing: border-box;
+}
+
+
+/* Small section title */
+.tester h2 {
+    margin: 0 0 45px 0;
+
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #111;
+}
+
+
+/* Main title */
+.tester h1 {
+    margin: 0 0 55px 0;
+
+    font-size: 58px;
+    line-height: 1.1;
+    font-weight: 700;
+
+    color: #050505;
+}
+
+
+/* Paragraph */
+.tester p {
+    max-width: 1250px;
+
+    margin: 0 0 18px 0;
+
+    font-size: 19px;
+    line-height: 1.75;
+    font-weight: 400;
+
+    color: #111;
+}
+
+
