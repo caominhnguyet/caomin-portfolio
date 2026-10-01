@@ -2,66 +2,171 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Contact | Cao Minh Nguyet</title>
 
-    <link rel="stylesheet" href="style.css">
+    <style>
+
+        /* PAGE BACKGROUND */
+        body {
+            margin: 0;
+            background-color: #f8f5fa;
+        }
+
+
+        /* PAGE TITLE */
+        .contact {
+            width: 100%;
+            text-align: center;
+        }
+
+        .contact h1 {
+            font-size: 80px;
+            font-family: 'Courier New', Courier, monospace;
+
+            color: #71A2D9;
+
+            margin: 40px 0 80px;
+
+            font-weight: bold;
+            letter-spacing: 3px;
+        }
+
+
+        /* CONTACT CARD */
+        .contact-card {
+            width: 85%;
+            max-width: 960px;
+            min-height: 400px;
+
+            margin: 0 auto;
+
+            background-color: white;
+
+            border: 2px solid #71A2D9;
+            border-radius: 25px;
+
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+
+            padding: 55px 70px;
+
+            box-sizing: border-box;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+
+        /* INTRODUCTION */
+        .contact-card p:first-child {
+            font-family: Arial, sans-serif;
+
+            font-size: 22px;
+            line-height: 1.6;
+
+            color: #333;
+
+            text-align: center;
+
+            margin: 0 0 35px;
+        }
+
+
+        /* CONTACT INFORMATION */
+        .contact-card p:not(:first-child) {
+            font-family: Arial, sans-serif;
+
+            font-size: 25px;
+
+            color: #222;
+
+            margin: 8px auto;
+
+            width: 520px;
+
+            text-align: left;
+        }
+
+
+        /* CONTACT LABEL */
+        .contact-card strong {
+            display: inline-block;
+
+            width: 120px;
+
+            color: #71A2D9;
+
+            font-weight: bold;
+
+            margin-right: 5px;
+        }
+
+
+        /* CONTACT VALUE */
+        .contact-card span {
+            color: #222;
+        }
+
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+
+            .contact h1 {
+                font-size: 55px;
+                margin-bottom: 50px;
+            }
+
+            .contact-card {
+                width: 90%;
+                padding: 40px 25px;
+            }
+
+            .contact-card p:first-child {
+                font-size: 18px;
+            }
+
+            .contact-card p:not(:first-child) {
+                width: 100%;
+                font-size: 20px;
+            }
+
+            .contact-card strong {
+                width: 95px;
+            }
+        }
+
+    </style>
 </head>
+
 
 <body>
 
-<section class="contact-page">
-
-    <div class="contact-card">
+    <section class="contact">
 
         <h1>Contact Me</h1>
 
-        <p class="intro">
-            Thank you for visiting my portfolio.<br>
-            If you have any questions, job opportunities, or collaboration ideas,
-            feel free to contact me.
+    </section>
+
+
+    <div class="contact-card">
+
+        <p>
+            Thank you for visiting my portfolio.
+            <br>
+            Feel free to contact me.
         </p>
 
-        <div class="divider"></div>
+        <p>
+            <strong>Mail:</strong>
+            <span>minhminofficial@gmail.com</span>
+        </p>
 
-        <div class="item">
-
-            <div class="icon">📧</div>
-
-            <div>
-                <h3>Email</h3>
-
-                <a href="mailto:minhminofficial@gmail.com">
-                    minhminofficial@gmail.com
-                </a>
-            </div>
-
-        </div>
-
-        <div class="item">
-
-            <div class="icon">📱</div>
-
-            <div>
-                <h3>Phone</h3>
-
-                <a href="tel:+84373158868">
-                    +84 373-158-868
-                </a>
-            </div>
-
-        </div>
-
-        <div class="divider"></div>
-
-        <p class="footer">
-            Looking forward to hearing from you.
+        <p>
+            <strong>Phone:</strong>
+            <span>+84 373 158 868</span>
         </p>
 
     </div>
-
-</section>
 
 </body>
 </html>
